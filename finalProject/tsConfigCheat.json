@@ -1,0 +1,55 @@
+// rootDir: Specifies the root directory of your TypeScript files.
+// It tells the compiler where to start looking for files to compile.
+"rootDir": "./src",
+
+// outDir: Specifies the output directory for compiled JavaScript files.
+// The compiled files will be stored here.
+"outDir": "./build",
+
+// target: Sets the JavaScript version the TypeScript compiler should output.
+// For example, "ES5" ensures compatibility with older browsers.
+"target": "ES5",
+
+// module: Defines the module system for the output JavaScript.
+// Common choices are "CommonJS" for Node.js and "ES6" for modern JavaScript.
+"module": "CommonJS",
+
+// allowJs: Enables the inclusion of `.js` files in the project for compilation.
+// Useful when working with mixed `.ts` and `.js` codebases.
+"allowJs": true,
+
+// resolveJsonModule: Allows importing JSON files into TypeScript files.
+// The imported JSON will be treated as an object.
+"resolveJsonModule": true,
+
+// moduleDetection: Determines how the TypeScript compiler detects modules.
+// Options include "strict", "auto", and "legacy" to control module behavior.
+"moduleDetection": "strict",
+
+// strict: Enables all strict type-checking options in TypeScript.
+// It's a shortcut to enable various other strict flags.
+"strict": true,
+
+// sourceMap: Generates `.map` files for debugging, linking compiled JavaScript back to TypeScript.
+// Helps in debugging TypeScript code in browsers or tools like VS Code.
+"sourceMap": true,
+
+// noImplicitAny: Ensures you explicitly define types instead of having `any` inferred.
+// Helps catch potential errors early by avoiding untyped variables.
+"noImplicitAny": true,
+
+// strictNullChecks: Ensures null and undefined are treated as distinct types.
+// This avoids unexpected null-related runtime errors.
+"strictNullChecks": true,
+
+// strictFunctionTypes: Enforces stricter rules when comparing function types.
+// Helps prevent subtle bugs caused by incompatible function signatures.
+"strictFunctionTypes": true,
+
+// noUnusedLocals: Warns about declared but unused local variables.
+// Keeps the code clean and prevents unnecessary variables.
+"noUnusedLocals": true,
+
+// noUnusedParameters: Warns about unused parameters in functions.
+// Encourages developers to keep function signatures clean and focused.
+"noUnusedParameters": true,
